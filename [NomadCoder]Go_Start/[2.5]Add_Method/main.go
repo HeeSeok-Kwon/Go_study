@@ -6,7 +6,7 @@ import (
 )
 
 // package Nomad_Go_Start/mydict is not in GOROOT
-// Project file에서 go mod init
+// Project file에서 go mod init --> 여기서 Nomad_Go_Start가 프로젝트 파일
 func main() {
 	// dictionary := mydict.Dictionary{}
 	// dictionary["hello"] = "hello"
