@@ -1,7 +1,7 @@
 package main
 
 import (
-	"Nomad_Go_Start/modules/mydict/school"
+	"Nomad_Go_Start/modules/school"
 	"fmt"
 )
 
