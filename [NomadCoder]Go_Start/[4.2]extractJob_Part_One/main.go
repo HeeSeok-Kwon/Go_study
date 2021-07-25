@@ -51,7 +51,7 @@ func getPage(page int) {
 		fmt.Println(location)
 	})
 }
-// next lecture
+
 func cleanString(str string) string {
 
 }
