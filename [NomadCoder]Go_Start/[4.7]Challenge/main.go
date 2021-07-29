@@ -40,7 +40,7 @@ func main() {
 	}
 
 	// writeJobs(jobs)
-	writeJobswithGoRoutines(jobs)
+	writeJobswithGoRoutines(jobs) // file write with Go routines 
 	fmt.Println("Done, extracted", len(jobs))
 }
 
@@ -137,6 +137,7 @@ func writeJobs(jobs []extractedJob) {
 	}
 }
 
+// file write with Go routines
 func writeJobswithGoRoutines(jobs []extractedJob) {
 	csv, err := ccsv.NewCsvWriter("sample.csv")
 	checkErr(err)
