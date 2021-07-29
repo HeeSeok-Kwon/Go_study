@@ -39,8 +39,8 @@ func main() {
 		jobs = append(jobs, extractedJobs...)
 	}
 
-	writeJobs(jobs)
-	// writeJobswithGoRoutines(jobs)
+	// writeJobs(jobs)
+	writeJobswithGoRoutines(jobs)
 	fmt.Println("Done, extracted", len(jobs))
 }
 
