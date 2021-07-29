@@ -84,7 +84,7 @@ func getPage(page int) []extractedJob {
 	return jobs
 }
 
-func extractJob(card *goquery.Selection, c chan<- extractedJob) extractedJob {
+func extractJob(card *goquery.Selection, c chan<- extractedJob) {
 	id, _ := card.Attr("data-jk")
 	// id, _ := card.Attr("href")
 	// fmt.Println(id)
