@@ -1,6 +1,3 @@
-## 명령어
-- go run main.go
-
 ## File Encoding Error --> 다운받은 csv 파일 한글 깨짐 현상
 
 ### 해결방안(1)
